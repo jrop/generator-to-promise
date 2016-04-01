@@ -1,6 +1,10 @@
 generator-to-promise
 ====================
+
 > Convert a generator function to a promise
+
+[![Build Status](https://travis-ci.org/jrop/generator-to-promise.svg?branch=master)](https://travis-ci.org/jrop/generator-to-promise)
+[![Coverage Status](https://coveralls.io/repos/github/jrop/generator-to-promise/badge.svg?branch=master)](https://coveralls.io/github/jrop/generator-to-promise?branch=master)
 
 # Installation
 

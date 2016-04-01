@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "ava",
-    "coverage": "nyc --reporter=lcov npm test"
+    "coverage": "nyc --reporter=lcov npm test",
+	"coveralls": "./node_modules/.bin/nyc -r lcovonly npm test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "ava": "^0.13.0",
+    "coveralls": "^2.11.9",
     "nyc": "^6.1.1"
   },
   "repository": "jrop/generator-to-promise"
