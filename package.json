@@ -13,5 +13,6 @@
   "devDependencies": {
     "ava": "^0.13.0",
     "nyc": "^6.1.1"
-  }
+  },
+  "repository": "jrop/generator-to-promise"
 }
