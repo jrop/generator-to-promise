@@ -1,0 +1,17 @@
+{
+  "name": "generator-to-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "coverage": "nyc --reporter=lcov npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.13.0",
+    "nyc": "^6.1.1"
+  }
+}
