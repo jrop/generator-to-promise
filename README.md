@@ -1,6 +1,8 @@
 generator-to-promise
 ====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jrop/generator-to-promise.svg)](https://greenkeeper.io/)
+
 > Convert a generator function to a promise
 
 [![Build Status](https://travis-ci.org/jrop/generator-to-promise.svg?branch=master)](https://travis-ci.org/jrop/generator-to-promise)
